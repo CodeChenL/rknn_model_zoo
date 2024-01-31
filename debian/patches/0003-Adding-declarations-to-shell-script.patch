@@ -1,0 +1,183 @@
+diff --git a/examples/LPRNet/model/download_model.sh b/examples/LPRNet/model/download_model.sh
+old mode 100644
+new mode 100755
+index 2c2edd0..b974154
+--- a/examples/LPRNet/model/download_model.sh
++++ b/examples/LPRNet/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./lprnet.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/LPRNet/lprnet.onnx
+diff --git a/examples/PPOCR/PPOCR-Det/model/download_model.sh b/examples/PPOCR/PPOCR-Det/model/download_model.sh
+old mode 100644
+new mode 100755
+index 0e7e9b5..03a8b36
+--- a/examples/PPOCR/PPOCR-Det/model/download_model.sh
++++ b/examples/PPOCR/PPOCR-Det/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./ppocrv4_det.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/PPOCR/ppocrv4_det.onnx
+diff --git a/examples/PPOCR/PPOCR-Rec/model/download_model.sh b/examples/PPOCR/PPOCR-Rec/model/download_model.sh
+old mode 100644
+new mode 100755
+index bc51605..8055b0e
+--- a/examples/PPOCR/PPOCR-Rec/model/download_model.sh
++++ b/examples/PPOCR/PPOCR-Rec/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ppocrv4_rec.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/PPOCR/ppocrv4_rec.onnx
+diff --git a/examples/RetinaFace/model/download_model.sh b/examples/RetinaFace/model/download_model.sh
+old mode 100644
+new mode 100755
+index 5240bbd..091a662
+--- a/examples/RetinaFace/model/download_model.sh
++++ b/examples/RetinaFace/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O RetinaFace_mobile320.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/RetinaFace/RetinaFace_mobile320.onnx
+diff --git a/examples/deeplabv3/model/download_model.sh b/examples/deeplabv3/model/download_model.sh
+old mode 100644
+new mode 100755
+index dd03281..22b4534
+--- a/examples/deeplabv3/model/download_model.sh
++++ b/examples/deeplabv3/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./deeplab-v3-plus-mobilenet-v2.pb https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/Deeplabv3/deeplab-v3-plus-mobilenet-v2.pb
+diff --git a/examples/lite_transformer/model/download_model.sh b/examples/lite_transformer/model/download_model.sh
+old mode 100644
+new mode 100755
+index 5f8a6dc..56837d8
+--- a/examples/lite_transformer/model/download_model.sh
++++ b/examples/lite_transformer/model/download_model.sh
+@@ -1,2 +1,4 @@
++#!/bin/bash
++
+ wget -O lite-transformer-encoder-16.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/lite_transformer/lite-transformer-encoder-16.onnx
+ wget -O lite-transformer-decoder-16.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/lite_transformer/lite-transformer-decoder-16.onnx
+diff --git a/examples/mobilenet/model/download_model.sh b/examples/mobilenet/model/download_model.sh
+old mode 100644
+new mode 100755
+index e8e1b94..8998c99
+--- a/examples/mobilenet/model/download_model.sh
++++ b/examples/mobilenet/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O mobilenetv2-12.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/MobileNet/mobilenetv2-12.onnx
+diff --git a/examples/ppseg/model/download_model.sh b/examples/ppseg/model/download_model.sh
+old mode 100644
+new mode 100755
+index c8e059b..5f479b8
+--- a/examples/ppseg/model/download_model.sh
++++ b/examples/ppseg/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O pp_liteseg_cityscapes.onnx https://ftzr.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/ppseg/pp_liteseg_cityscapes.onnx
+diff --git a/examples/ppyoloe/model/download_model.sh b/examples/ppyoloe/model/download_model.sh
+old mode 100644
+new mode 100755
+index 702f9d5..4fb3125
+--- a/examples/ppyoloe/model/download_model.sh
++++ b/examples/ppyoloe/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./ppyoloe_s.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/ppyoloe/ppyoloe_s.onnx
+diff --git a/examples/resnet/model/download_model.sh b/examples/resnet/model/download_model.sh
+old mode 100644
+new mode 100755
+index f8c3ad2..b059509
+--- a/examples/resnet/model/download_model.sh
++++ b/examples/resnet/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O resnet50-v2-7.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/ResNet/resnet50-v2-7.onnx
+diff --git a/examples/yolov5/model/download_model.sh b/examples/yolov5/model/download_model.sh
+old mode 100644
+new mode 100755
+index 15c3ed4..d474262
+--- a/examples/yolov5/model/download_model.sh
++++ b/examples/yolov5/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov5s_relu.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov5/yolov5s_relu.onnx
+diff --git a/examples/yolov5_seg/model/download_model.sh b/examples/yolov5_seg/model/download_model.sh
+old mode 100644
+new mode 100755
+index eacb054..ff927b2
+--- a/examples/yolov5_seg/model/download_model.sh
++++ b/examples/yolov5_seg/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov5s-seg.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov5_seg/yolov5s-seg.onnx
+diff --git a/examples/yolov6/model/download_model.sh b/examples/yolov6/model/download_model.sh
+old mode 100644
+new mode 100755
+index 077f0bd..c9abc88
+--- a/examples/yolov6/model/download_model.sh
++++ b/examples/yolov6/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov6n.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov6/yolov6n.onnx
+diff --git a/examples/yolov7/model/download_model.sh b/examples/yolov7/model/download_model.sh
+old mode 100644
+new mode 100755
+index ff31682..6ee09d4
+--- a/examples/yolov7/model/download_model.sh
++++ b/examples/yolov7/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov7-tiny.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov7/yolov7-tiny.onnx
+diff --git a/examples/yolov8/model/download_model.sh b/examples/yolov8/model/download_model.sh
+old mode 100644
+new mode 100755
+index 343ee87..d3dcf09
+--- a/examples/yolov8/model/download_model.sh
++++ b/examples/yolov8/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov8n.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov8/yolov8n.onnx
+diff --git a/examples/yolov8_seg/model/download_model.sh b/examples/yolov8_seg/model/download_model.sh
+old mode 100644
+new mode 100755
+index d78c8a2..a79ab5d
+--- a/examples/yolov8_seg/model/download_model.sh
++++ b/examples/yolov8_seg/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolov8s-seg.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov8_seg/yolov8s-seg.onnx
+diff --git a/examples/yolox/model/download_model.sh b/examples/yolox/model/download_model.sh
+old mode 100644
+new mode 100755
+index 93deeff..390ca15
+--- a/examples/yolox/model/download_model.sh
++++ b/examples/yolox/model/download_model.sh
+@@ -1 +1,3 @@
++#!/bin/bash
++
+ wget -O ./yolox_s.onnx https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolox/yolox_s.onnx
+diff --git a/scaling_frequency.sh b/scaling_frequency.sh
+old mode 100644
+new mode 100755
+index 15420ee..771a8dc
+--- a/scaling_frequency.sh
++++ b/scaling_frequency.sh
+@@ -1,3 +1,5 @@
++#!/bin/bash
++
+ 
+ chip_name=0
+ freq_set_status=0

@@ -1,7 +1,1 @@
-# Our package is built on GitHub-hosted runner,
-# which uses Ubuntu, and will default to zstd compression.
-# This is currently not supported in Debian.
-rsetup source: custom-compression-in-debian-rules
-
-# Small bug number is very probable for us.
-rknn-model-zoo: improbable-bug-number-in-closes
+rknn-model-zoo: initial-upload-closes-no-bugs
