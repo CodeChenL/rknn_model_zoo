@@ -1,8 +1,13 @@
 diff --git a/examples/yolov8/python/yolov8.py b/../rknn_model_zoo/examples/yolov8/python/yolov8.py
-index 164b8d2..5e1ecd1 100644
+index 164b8d2..cd399d6 100644
 --- a/examples/yolov8/python/yolov8.py
 +++ b/examples/yolov8/python/yolov8.py
-@@ -11,6 +11,7 @@ sys.path.append(os.path.join(realpath[0]+_sep, *realpath[1:realpath.index('rknn_
+@@ -7,10 +7,11 @@ import argparse
+ realpath = os.path.abspath(__file__)
+ _sep = os.path.sep
+ realpath = realpath.split(_sep)
+-sys.path.append(os.path.join(realpath[0]+_sep, *realpath[1:realpath.index('rknn_model_zoo')+1]))
++sys.path.append(os.path.join(realpath[0]+_sep, *realpath[1:realpath.index('rknn-model-zoo')+1]))
  
  from py_utils.coco_utils import COCO_test_helper
  import numpy as np

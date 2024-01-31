@@ -1,6 +1,7 @@
 *.onnx
 *__pycache__*
 *.rknn
+.venv
 
 debian/.debhelper
 debian/rknn-model-zoo
