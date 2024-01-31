@@ -1,0 +1,15 @@
+diff --git a/py_utils/rknn_executor.py b/../rknn_model_zoo/py_utils/rknn_executor.py
+index db463d7..d55bf64 100644
+--- a/py_utils/rknn_executor.py
++++ b/py_utils/rknn_executor.py
+@@ -1,5 +1,8 @@
+-from rknn.api import RKNN
+-
++try:
++    from rknn.api import RKNN
++except ImportError:
++    print('import rknn failed,try to import rknnlite')
++    from rknnlite.api import RKNNLite as RKNN
+ 
+ class RKNN_model_container():
+     def __init__(self, model_path, target=None, device_id=None) -> None:
