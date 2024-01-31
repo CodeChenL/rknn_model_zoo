@@ -1,0 +1,9 @@
+*.onnx
+*__pycache__*
+*.rknn
+
+debian/.debhelper
+debian/rknn-model-zoo
+/debian/files
+debian/rknn-model-zoo.substvars
+debian/debhelper-build-stamp
