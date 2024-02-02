@@ -2,6 +2,8 @@
 *__pycache__*
 *.rknn
 .venv
+requirements*.txt
+rknn_toolkit2*.whl
 
 debian/.debhelper
 debian/rknn-model-zoo

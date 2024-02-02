@@ -5,14 +5,16 @@ Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
+ python3,
+ python3-pip,
+ mesa-utils,
 Standards-Version: 4.6.2
 Homepage: https://github.com/airockchip/rknn_model_zoo
 #Vcs-Browser: https://salsa.debian.org/debian/rknn-model-zoo
 #Vcs-Git: https://salsa.debian.org/debian/rknn-model-zoo.git
 
 Package: rknn-model-zoo
-Architecture: any
-Multi-Arch: foreign
+Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
