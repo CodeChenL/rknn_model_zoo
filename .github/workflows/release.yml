@@ -26,11 +26,7 @@ jobs:
           wget https://github.com/airockchip/rknn-toolkit2/raw/master/rknn-toolkit2/packages/rknn_toolkit2-1.6.0+81f21f4d-cp310-cp310-linux_x86_64.whl
           pip3 install -r requirements_cp310-1.6.0.txt
           pip3 install rknn_toolkit2-1.6.0+81f21f4d-cp310-cp310-linux_x86_64.whl
-          bash
           make deb
-      - name: Debugging
-        if: failure()
-        run: bash
       - name: Workaround actions/upload-artifact#176
         run: |
           echo "artifacts_path=$(realpath ..)" >> $GITHUB_ENV
