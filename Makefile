@@ -1,4 +1,7 @@
 all:
+	python3.10 --version
+	pip3.10 -V
+	env
 	cd ./examples/yolov8/model && \
 	bash ./download_model.sh && \
 	cd ../python && \
