@@ -32,9 +32,9 @@ jobs:
           git devscripts lintian wget
           wget https://github.com/airockchip/rknn-toolkit2/raw/master/rknn-toolkit2/packages/requirements_cp310-1.6.0.txt
           wget https://github.com/airockchip/rknn-toolkit2/raw/master/rknn-toolkit2/packages/rknn_toolkit2-1.6.0+81f21f4d-cp310-cp310-linux_x86_64.whl
-          pip3 install -r requirements_cp310-1.6.0.txt
-          pip3 install rknn_toolkit2-1.6.0+81f21f4d-cp310-cp310-linux_x86_64.whl
-          make all deb
+          sudo pip3 install -r requirements_cp310-1.6.0.txt
+          sudo pip3 install rknn_toolkit2-1.6.0+81f21f4d-cp310-cp310-linux_x86_64.whl
+          make deb
       - name: Push
         run: |
           git push
