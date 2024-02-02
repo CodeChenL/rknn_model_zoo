@@ -4,7 +4,7 @@ all:
 	cd ../python && \
 	python3.10 convert.py ../model/yolov8n.onnx rk3588 i8 ../model/yolov8_rk3588.rknn && \
 	python3.10 convert.py ../model/yolov8n.onnx rk3568 i8 ../model/yolov8_rk3568.rknn && \
-	python3.10 convert.py ../model/yolov8n.onnx rk3568 i8 ../model/yolov8_rk3566.rknn
+	python3.10 convert.py ../model/yolov8n.onnx rk3566 i8 ../model/yolov8_rk3566.rknn
 
 .PHONY: distclean
 distclean: clean
